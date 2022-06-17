@@ -14,12 +14,22 @@ body {
   align-items: center;
   justify-content: center;
 }
+.header {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
 
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .icon {
@@ -63,4 +73,23 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.leftcontainer { 
+  display:flex;
+}
+.rightcontainer { 
+  display:flex;
+}
+
+.midcontainer{
+  display:flex;
+  flex-direction:column;
+  text-align: left;
+}
+
+.buttoncontainer{
+  display:flex;
+  margin-top: 10px;
+  gap: 5px;
 }
